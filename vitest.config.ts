@@ -5,7 +5,7 @@ export default defineConfig({
     globals: true,
 
     include: ['**/*.test.js'],
-    exclude: ['node_modules', 'tests/e2e'], // 👈 все лишнє
+    exclude: ['node_modules', 'tests/e2e'], 
 
     coverage: {
       provider: 'v8',
