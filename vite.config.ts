@@ -4,7 +4,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/ingest': {
-        target: 'https://eu.i.posthog.com',
+        target: 'https://us.i.posthog.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/ingest/, ''),
       },

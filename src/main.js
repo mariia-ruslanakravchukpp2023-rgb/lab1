@@ -19,8 +19,9 @@ Sentry.setUser({
   segment: "premium_user"
 });
 
-posthog.init('phc_od7Rbek3gviQxPhfHZFBve2iSNZYwg4qaD77Hsn87qVd', {
+posthog.init('KEY', {
   api_host: '/ingest',
+  ui_host: 'https://us.posthog.com',
   autocapture: true,
   capture_pageview: true,
   person_profiles: 'identified_only',
