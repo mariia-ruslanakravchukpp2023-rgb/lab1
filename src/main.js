@@ -20,7 +20,7 @@ Sentry.setUser({
 });
 
 posthog.init('phc_od7Rbek3gviQxPhfHZFBve2iSNZYwg4qaD77Hsn87qVd', {
-  api_host: 'https://us.i.posthog.com',
+  api_host: '/ingest',
   autocapture: true,
   capture_pageview: true,
   person_profiles: 'identified_only',
